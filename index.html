@@ -1,0 +1,399 @@
+<!doctype html><html lang="sk"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Fyzioterapia &amp; Masáže Marek Šipoš · fyzioterapia a masáže v Topoľčanoch — neoficiálny návrh</title>
+<meta name="description" content="Fyzioterapia, chiropraxia, masáže a rázová vlna na Tovarníckej 1061/48 v Topoľčanoch. Neoficiálny návrh webu od Darwon.">
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;800&amp;family=Newsreader:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FFFFFF; --liner:#FBFCFD; --ink:#1E3446; --slate:#3E5F78; --navy:#1B3142;
+  --teal:#2AA5A8; --teal-ink:#0F2A3A; --coral:#FF7F50; --coral-d:#D9572B;
+  --grid:rgba(69,106,132,.13); --hair:rgba(30,52,70,.15);
+  --sans:'Epilogue',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+  --serif:'Newsreader',Georgia,'Times New Roman',serif;
+  --weave:repeating-linear-gradient(90deg,rgba(255,255,255,.13) 0 1px,transparent 1px 4px),repeating-linear-gradient(0deg,rgba(0,0,0,.06) 0 1px,transparent 1px 3px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 18px/1.6 var(--serif)}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:3px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 40px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.lab{font:600 12.5px/1.3 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--slate);margin:0}
+
+.notice{background:var(--navy);color:#E4EDF3;font:500 13px/1.45 var(--sans);text-align:center;padding:9px 16px}
+
+/* hlavička */
+.top{border-bottom:1px solid var(--hair);background:var(--paper)}
+.top-in{display:flex;align-items:center;gap:30px;min-height:80px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{width:40px;height:auto}
+.brand b{display:block;font:700 17px/1.15 var(--sans);letter-spacing:-.01em}
+.brand span{display:block;font:500 13px/1.3 var(--sans);color:var(--slate)}
+.top nav{display:flex;gap:28px;margin-left:auto;font:500 15px/1 var(--sans)}
+.top nav a,.tel{text-decoration:none;background:linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat;transition:background-size .2s;padding:4px 0}
+.top nav a:hover,.tel:hover{background-size:100% 1px}
+.tel{font:600 15px/1 var(--sans);font-variant-numeric:tabular-nums}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;border-radius:10px;text-decoration:none;font:700 16px/1 var(--sans);white-space:nowrap;letter-spacing:-.005em}
+.btn-coral{background:var(--coral);color:var(--teal-ink);background-image:var(--weave)}
+.btn-coral:hover{background-color:#FF916A}
+.btn-line{border:1.5px solid var(--ink)}
+.btn-line:hover{background:rgba(30,52,70,.05)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:minmax(0,1fr) 410px;gap:64px;padding-top:72px;padding-bottom:88px;min-height:min(600px,82vh)}
+.h-right{display:flex;flex-direction:column;justify-content:space-between;gap:48px;padding-top:44px}
+h1{margin:22px 0 0;font:800 clamp(42px,7.4vw,96px)/.98 var(--sans);letter-spacing:-.035em}
+h1 .line{display:block;white-space:nowrap}
+.on-tape{position:relative;display:inline-block;z-index:0;padding:0 .08em}
+.on-tape::before{content:"";position:absolute;z-index:-1;left:-.42em;right:-.5em;top:.1em;bottom:.02em;border-radius:.2em;background-color:var(--teal);background-image:var(--weave);transform:rotate(-3.2deg);box-shadow:0 1px 1px rgba(15,42,58,.18),0 6px 14px rgba(15,42,58,.12)}
+.hook{margin:0 0 6px;font:italic 400 clamp(23px,2.5vw,32px)/1.28 var(--serif);max-width:20em;text-wrap:balance;padding-left:22px;border-left:3px solid var(--coral)}
+.intro{margin:34px 0 30px;max-width:31em;color:#2E4A5E;text-wrap:pretty}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.btn-lg{min-height:56px;padding:0 30px;font-size:17px}
+.cta-note{margin:12px 0 0;font:400 15px/1.45 var(--serif);color:var(--slate)}
+
+/* podkladový papier */
+.liner{background-color:var(--liner);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:24px 24px;background-position:-1px -1px}
+.card{position:relative;padding:44px 34px 30px;border:1px solid var(--hair);border-radius:4px}
+.bit{position:absolute;top:-16px;left:28px;width:132px;height:36px;border-radius:12px;background-color:var(--coral);background-image:var(--weave);transform:rotate(-5deg);box-shadow:0 1px 1px rgba(15,42,58,.15),0 4px 8px rgba(15,42,58,.1)}
+.status{display:flex;align-items:center;gap:12px;margin:0;font:700 21px/1.25 var(--sans);letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+#statusDot{width:14px;height:14px;border-radius:50%;flex:none;background:#B9C6D0}
+#statusDot.is-open{background:var(--teal);box-shadow:0 0 0 4px rgba(42,165,168,.2)}
+#statusDot.is-closing{background:var(--coral);box-shadow:0 0 0 4px rgba(255,127,80,.22)}
+#statusText b{font-weight:700;color:var(--slate)}
+.when{margin:8px 0 0 26px;font:500 15px/1.45 var(--sans);color:var(--slate);font-variant-numeric:tabular-nums}
+.rates{margin:26px 0 0;padding:20px 0 0;border-top:1px solid var(--hair);display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.rates div{margin:0}
+.rates dt{font:800 38px/1 var(--sans);letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.rates dd{margin:8px 0 0;font:500 13.5px/1.4 var(--sans);color:var(--slate)}
+
+/* páska cez stránku (skewY nevytŕča do strán) */
+.strip{height:54px;background-color:var(--coral);background-image:var(--weave);transform:skewY(-2deg);box-shadow:0 2px 2px rgba(15,42,58,.12)}
+.strip.t{background-color:var(--teal);transform:skewY(1.6deg)}
+.strip-wrap{position:relative;z-index:2;margin:-27px 0}
+
+/* cenník */
+.price{background:var(--navy);color:#fff;padding-top:110px;padding-bottom:110px}
+.price-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 64px;align-items:end;margin-bottom:44px}
+.price h2{margin:0;font:800 clamp(44px,5.4vw,72px)/1 var(--sans);letter-spacing:-.035em}
+.price-head p{margin:0;color:#C9D7E1;max-width:30em}
+.price .lab{color:#9FC0D3;margin-bottom:14px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:16px!important;font:500 14px/1.3 var(--sans);color:#E1EAF0}
+.legend i{display:inline-block;width:28px;height:12px;border-radius:4px;margin-right:8px;vertical-align:-1px;background-color:var(--coral);background-image:var(--weave)}
+.legend i.t{background-color:var(--teal)}
+.sheet{color:var(--ink);padding:26px 40px 0;border-radius:6px;box-shadow:0 30px 60px rgba(0,0,0,.28)}
+.rows{list-style:none;margin:0;padding:0}
+.row,.ruler-row{display:grid;grid-template-columns:300px minmax(0,1fr) 96px;gap:0 28px;align-items:center}
+.row{padding:20px 0;border-top:1px solid var(--hair)}
+.ruler-row{height:44px;align-items:end;padding-bottom:10px}
+.ruler{grid-column:2;position:relative;height:22px;border-bottom:1.5px solid var(--slate);
+  background:repeating-linear-gradient(90deg,var(--slate) 0 1.5px,transparent 1.5px calc(100%/12)) 0 100%/100% 7px no-repeat}
+.ruler span{position:absolute;top:-6px;font:600 11.5px/1 var(--sans);color:var(--slate);transform:translateX(-50%);font-variant-numeric:tabular-nums}
+.ruler span:first-child{transform:none}
+.ruler span:last-child{transform:translateX(-100%)}
+.ruler-row .u{grid-column:3;font:600 11.5px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--slate);text-align:right}
+.svc h3{margin:0;font:700 20px/1.2 var(--sans);letter-spacing:-.01em}
+.svc p{margin:4px 0 0;font:400 15.5px/1.35 var(--serif);color:var(--slate)}
+.track{position:relative;height:40px}
+.tp{position:absolute;left:0;top:0;bottom:0;width:calc(var(--m) / 60 * 100%);border-radius:10px;background-color:var(--coral);background-image:var(--weave);display:flex;align-items:center;padding:0 14px;font:700 14px/1 var(--sans);color:var(--teal-ink);white-space:nowrap;box-shadow:0 1px 1px rgba(15,42,58,.14),0 3px 6px rgba(15,42,58,.08);transform:rotate(-.4deg);font-variant-numeric:tabular-nums}
+.tp.t{background-color:var(--teal);transform:rotate(.35deg)}
+.track .none{position:absolute;inset:0;display:flex;align-items:center;font:italic 400 15.5px/1.3 var(--serif);color:var(--slate)}
+.pr{font:800 27px/1 var(--sans);letter-spacing:-.02em;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.edge{margin:8px -40px 0;padding:12px 40px;border-top:1px dashed rgba(62,95,120,.35);font:600 10.5px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:rgba(62,95,120,.55);white-space:nowrap;overflow:hidden}
+.demo{margin:26px 0 0;font:400 15px/1.5 var(--serif);color:#C9D7E1;max-width:52em}
+.demo b{font:700 11.5px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:#fff;margin-right:8px}
+
+/* rázová vlna */
+.wave{padding-top:130px;padding-bottom:110px;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:72px;align-items:start}
+.wave h2{margin:14px 0 0;font:800 clamp(38px,4.6vw,60px)/1.02 var(--sans);letter-spacing:-.035em}
+.wave blockquote{margin:28px 0 0;font:italic 400 clamp(23px,2.3vw,30px)/1.38 var(--serif);text-wrap:pretty}
+.wave .demo{color:var(--slate)}
+.wave .demo b{color:var(--ink)}
+.years{padding-top:12px}
+.years .num{position:relative;display:inline-block;font:800 clamp(96px,11vw,148px)/.9 var(--sans);letter-spacing:-.06em;z-index:0;padding-right:.08em}
+.years .num::after{content:"";position:absolute;z-index:-1;left:-.12em;right:-.2em;bottom:.04em;height:.3em;border-radius:.07em;background-color:var(--coral);background-image:var(--weave);transform:rotate(-2deg)}
+.years .unit{display:block;margin-top:10px;font:700 22px/1.2 var(--sans);letter-spacing:-.01em}
+.years blockquote{margin:22px 0 0;font:italic 400 18px/1.5 var(--serif);color:#2E4A5E;border-left:2px solid var(--teal);padding-left:18px}
+
+/* kontakt */
+.contact{border-top:1px solid var(--hair);padding-top:96px;padding-bottom:100px}
+.contact-grid{display:grid;grid-template-columns:330px minmax(0,1fr) minmax(0,1fr);gap:56px;align-items:start}
+.room{position:relative;margin:14px 0 0}
+.room img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:3px;transition:transform .5s}
+.room .ph{overflow:hidden;border-radius:3px;box-shadow:0 14px 30px rgba(15,42,58,.16)}
+.room:hover img{transform:scale(1.045)}
+.room .bit{top:-14px;left:auto;right:-18px;width:120px;transform:rotate(38deg);background-color:var(--teal)}
+.room figcaption{margin-top:12px;font:500 13.5px/1.4 var(--sans);color:var(--slate)}
+.contact h2{margin:12px 0 0;font:800 clamp(34px,3.6vw,46px)/1.05 var(--sans);letter-spacing:-.03em}
+.addr{margin:22px 0 22px;font:500 22px/1.35 var(--sans);letter-spacing:-.01em}
+.contact p{margin:0 0 8px}
+.c-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px!important}
+.c-tel{font:700 22px/1.3 var(--sans);text-decoration:none;font-variant-numeric:tabular-nums}
+.c-tel:hover{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
+.soc a{font:500 16px/1.6 var(--sans);text-underline-offset:3px;text-decoration-thickness:1px}
+.hours{width:100%;border-collapse:collapse;margin-top:18px;font:500 17px/1.3 var(--sans);font-variant-numeric:tabular-nums}
+.hours th,.hours td{padding:12px 0;border-bottom:1px solid var(--hair);text-align:left;font-weight:500}
+.hours td{text-align:right}
+.hours tr[data-today] th,.hours tr[data-today] td{font-weight:800}
+.hours tr[data-today] th::before{content:"";display:inline-block;width:18px;height:8px;border-radius:3px;background:var(--teal);margin-right:10px;vertical-align:1px}
+.hnote{margin-top:14px!important;font:400 15.5px/1.5 var(--serif);color:var(--slate)}
+
+footer{border-top:1px solid var(--hair);padding:28px 0 32px;font:500 13.5px/1.5 var(--sans);color:var(--slate)}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.mbar{display:none}
+
+@media (max-width:1060px){
+  .top nav{display:none}
+  .tel{margin-left:auto}
+  .hero{display:flex;flex-direction:column;gap:0;min-height:0}
+  .h-left,.h-right{display:contents}
+  .h-main{order:1}.hook{order:2;margin-top:30px}.h-act{order:3}.card{order:4;margin-top:56px}
+  .card{max-width:520px}
+  .row,.ruler-row{grid-template-columns:220px minmax(0,1fr) 84px;gap:0 20px}
+  .wave{grid-template-columns:1fr;gap:48px}
+  .contact-grid{grid-template-columns:280px minmax(0,1fr);gap:44px}
+  .contact-grid>div:last-child{grid-column:1/-1}
+}
+@media (max-width:700px){
+  body{font-size:17px}
+  .wrap{padding:0 18px}
+  .notice{font-size:12px;padding:8px 12px}
+  .top-in{min-height:68px;gap:12px}
+  .brand img{width:32px}
+  .brand b{font-size:15.5px}
+  .brand span{font-size:12px}
+  .top .btn,.tel{display:none}
+  .hero{padding-top:40px;padding-bottom:64px}
+  h1{font-size:clamp(42px,12.4vw,54px);margin-top:16px}
+  .lab{font-size:11px;letter-spacing:.14em}
+  .hook{font-size:22px;margin-top:24px;padding-left:16px}
+  .intro{margin-top:22px}
+  .card{margin-top:48px}
+  .intro{margin-bottom:26px}
+  .cta .btn{flex:1 1 100%}
+  .card{padding:40px 20px 24px}
+  .status{font-size:18.5px}
+  .rates dt{font-size:32px}
+  .strip{height:40px}
+  .strip-wrap{margin:-20px 0}
+  .price{padding-top:84px;padding-bottom:84px}
+  .price-head{grid-template-columns:1fr;margin-bottom:32px}
+  .sheet{padding:18px 16px 0}
+  .ruler-row{grid-template-columns:1fr;height:40px}
+  .ruler{grid-column:1}
+  .ruler-row .u{display:none}
+  .row{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"svc pr" "track track";gap:12px 14px;padding:18px 0}
+  .svc{grid-area:svc}.pr{grid-area:pr;font-size:24px;align-self:start}
+  .track{grid-area:track;height:36px}
+  .svc h3{font-size:18px}
+  .svc p{font-size:15px}
+  .tp{font-size:13px;padding:0 10px}
+  .edge{margin:8px -16px 0;padding:12px 16px}
+  .wave{padding-top:96px;padding-bottom:80px}
+  .contact{padding-top:72px;padding-bottom:72px}
+  .contact-grid{grid-template-columns:1fr;gap:40px}
+  .room{max-width:300px}
+  .addr{font-size:20px}
+  footer{padding-bottom:calc(100px + env(safe-area-inset-bottom))}
+  .mbar{display:grid;grid-template-columns:1fr 1.2fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:20;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.97);border-top:1px solid var(--hair);box-shadow:0 -6px 16px rgba(15,42,58,.08)}
+  .mbar a{display:flex;align-items:center;justify-content:center;min-height:50px;border-radius:10px;text-decoration:none;font:700 16px/1 var(--sans)}
+  .mbar .call{border:1.5px solid var(--ink)}
+  .mbar .book{background-color:var(--coral);background-image:var(--weave);color:var(--teal-ink)}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<div class="notice" role="note">Neoficiálny návrh — nie je to oficiálny web podniku · ukážka od Darwon · rezervácia vedie do ukážkovej administrácie, podnik ju nedostane</div>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#top"><img src="assets/znak-chrbtica.webp" width="138" height="147" alt=""><span><b>Fyzioterapia &amp; Masáže</b><span>Marek Šipoš · Topoľčany</span></span></a>
+    <nav aria-label="Hlavná navigácia">
+      <a href="#cennik">Cenník</a>
+      <a href="#razova-vlna">Rázová vlna</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="tel" href="tel:+421948412533">0948 412 533</a>
+    <a class="btn btn-coral" href="https://fyzio-sipos-darwon.vercel.app/rezervacia">Objednať sa</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero wrap" aria-labelledby="h1">
+    <div class="h-left">
+    <div class="h-main">
+      <p class="lab">Fyzioterapia · Chiropraxia · Masáže · Rázová vlna</p>
+      <h1 id="h1"><span class="line">Fyzioterapia</span><span class="line"><span class="on-tape">a masáže</span></span><span class="line">v Topoľčanoch</span></h1>
+    </div>
+    <div class="h-act">
+      <p class="intro">Masáže, fyzioterapia, chiropraxia a rázová vlna na Tovarníckej ulici. Na objednávku, v pracovné dni od 8:00 do 17:00.</p>
+      <div class="cta">
+        <a class="btn btn-coral btn-lg" href="https://fyzio-sipos-darwon.vercel.app/rezervacia">Objednať sa</a>
+        <a class="btn btn-line btn-lg" href="tel:+421948412533">Zavolať 0948 412 533</a>
+      </div>
+      <p class="cta-note">Online rezervácia — vyberiete si deň a čas, potvrdenie príde e-mailom.</p>
+    </div>
+    </div>
+    <div class="h-right">
+    <p class="hook">„Bolesti, ktoré ťa brzdia v tréningu alebo bežnom živote?“</p>
+    <aside class="card liner" aria-label="Otvorené a hodnotenia">
+      <span class="bit" aria-hidden="true"></span>
+      <p class="status" aria-live="polite"><span id="statusDot" aria-hidden="true"></span><span id="statusText">Po–Pi 8:00–17:00</span></p>
+      <p class="when"><span id="todayLabel"></span> · na objednávku</p>
+      <dl class="rates">
+        <div><dt>5,0 ★</dt><dd>Google · 41 recenzií</dd></div>
+        <div><dt>100 %</dt><dd>odporúča na Facebooku · 12 hodnotení</dd></div>
+      </dl>
+    </aside>
+    </div>
+  </section>
+
+  <div class="strip-wrap" aria-hidden="true"><div class="strip"></div></div>
+
+  <section class="price" id="cennik" aria-labelledby="cen-h">
+    <div class="wrap">
+      <div class="price-head">
+        <div>
+          <p class="lab">Ošetrenia a ceny</p>
+          <h2 id="cen-h">Cenník</h2>
+        </div>
+        <div>
+          <p>Dĺžka pásky ukazuje dĺžku ošetrenia — čím dlhší pás, tým viac minút na stole.</p>
+          <p class="legend"><span><i></i>masáže</span><span><i class="t"></i>fyzioterapia a chiropraxia</span></p>
+        </div>
+      </div>
+      <div class="sheet liner">
+        <div class="ruler-row" aria-hidden="true">
+          <div class="ruler"><span style="left:0">0</span><span style="left:16.667%">10</span><span style="left:33.333%">20</span><span style="left:50%">30</span><span style="left:66.667%">40</span><span style="left:83.333%">50</span><span style="left:100%">60</span></div>
+          <span class="u">min · cena</span>
+        </div>
+        <ul class="rows">
+          <li class="row" style="--m:30"><div class="svc"><h3>Klasická masáž</h3></div><div class="track"><span class="tp">30 min</span></div><div class="pr">20 €</div></li>
+          <li class="row" style="--m:50"><div class="svc"><h3>Klasická masáž</h3></div><div class="track"><span class="tp">50 min</span></div><div class="pr">30 €</div></li>
+          <li class="row" style="--m:40"><div class="svc"><h3>Masáž + bankovanie</h3></div><div class="track"><span class="tp">40 min</span></div><div class="pr">25 €</div></li>
+          <li class="row" style="--m:50"><div class="svc"><h3>Fyzioterapia</h3><p>konzultácia · vyšetrenie · terapia</p></div><div class="track"><span class="tp t">50 min</span></div><div class="pr">30 €</div></li>
+          <li class="row" style="--m:40"><div class="svc"><h3>Chiropraxia</h3><p>naprávanie pohybového aparátu</p></div><div class="track"><span class="tp t">40 min</span></div><div class="pr">40 €</div></li>
+          <li class="row"><div class="svc"><h3>Elektroterapia · Laser · Suchá ihla</h3></div><div class="track"><span class="none">dĺžka v cenníku neuvedená</span></div><div class="pr">6 €</div></li>
+        </ul>
+        <p class="edge" aria-hidden="true">Fyzioterapia &amp; Masáže · Topoľčany · Fyzioterapia &amp; Masáže · Topoľčany · Fyzioterapia &amp; Masáže · Topoľčany · Fyzioterapia &amp; Masáže · Topoľčany</p>
+      </div>
+      <p class="demo"><b>Ukážka návrhu</b> Ceny a dĺžky sú prepísané z cenníka na vašej fotke na Facebooku (bez dátumu). Pred spustením ich spolu overíme a doplníme rázovú vlnu.</p>
+    </div>
+  </section>
+
+  <div class="strip-wrap" aria-hidden="true"><div class="strip t"></div></div>
+
+  <section class="wave wrap" id="razova-vlna" aria-labelledby="rv-h">
+    <div>
+      <p class="lab">Rázová vlna</p>
+      <h2 id="rv-h">Keď sa problém ťahá mesiace</h2>
+      <blockquote>„Úprimne, aj mňa ako terapeuta stále prekvapuje, aký výrazný rozdiel dokáže rázová vlna priniesť pri problémoch, s ktorými sa ľudia trápia dlhé mesiace.“</blockquote>
+      <p class="demo"><b>Ukážka návrhu</b> Citát je z vášho príspevku na Facebooku z 20. 9. 2026. Popis ošetrenia a cenu doplníme podľa vás.</p>
+    </div>
+    <div class="years">
+      <span class="num">10</span>
+      <span class="unit">rokov pri svalových problémoch</span>
+      <blockquote>„Dobrý deň, som fyzioterapeut a masér, chiropraxii a celkovo svalovým problémom sa venujem 10 rokov“</blockquote>
+    </div>
+  </section>
+
+  <section class="contact" id="kontakt" aria-labelledby="kon-h">
+    <div class="wrap contact-grid">
+      <figure class="room">
+        <span class="bit" aria-hidden="true"></span>
+        <div class="ph"><img src="assets/ambulancia-priestor.webp" width="315" height="315" loading="lazy" alt="Miestnosť ambulancie s masážnym stolom, policami a nástennými hodinami"></div>
+        <figcaption>Ambulancia na Tovarníckej</figcaption>
+      </figure>
+      <div>
+        <p class="lab">Kontakt</p>
+        <h2 id="kon-h">Kde nás nájdete</h2>
+        <p class="addr">Tovarnícka 1061/48<br>955 01 Topoľčany</p>
+        <p><a class="c-tel" href="tel:+421948412533">0948 412 533</a></p>
+        <p class="soc"><a href="https://www.facebook.com/profile.php?id=100063520565684" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/fyzioterapeut_marek/" rel="noopener">Instagram</a></p>
+        <p class="c-links">
+          <a class="btn btn-coral" href="https://fyzio-sipos-darwon.vercel.app/rezervacia">Objednať sa</a>
+          <a class="btn btn-line" href="https://www.google.com/maps/search/Fyzioterapia+Mas%C3%A1%C5%BEe+Marek+%C5%A0ipo%C5%A1+Topo%C4%BE%C4%8Dany" rel="noopener">Mapa Google</a>
+        </p>
+      </div>
+      <div>
+        <p class="lab">Ordinačné hodiny</p>
+        <table class="hours">
+          <caption class="sr">Ordinačné hodiny</caption>
+          <tr data-day="1"><th scope="row">Pondelok</th><td>8:00–17:00</td></tr>
+          <tr data-day="2"><th scope="row">Utorok</th><td>8:00–17:00</td></tr>
+          <tr data-day="3"><th scope="row">Streda</th><td>8:00–17:00</td></tr>
+          <tr data-day="4"><th scope="row">Štvrtok</th><td>8:00–17:00</td></tr>
+          <tr data-day="5"><th scope="row">Piatok</th><td>8:00–17:00</td></tr>
+          <tr data-day="6"><th scope="row">Sobota</th><td>zatvorené</td></tr>
+          <tr data-day="0"><th scope="row">Nedeľa</th><td>zatvorené</td></tr>
+        </table>
+        <p class="hnote">Na objednávku. Hodiny podľa profilu na Googli.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><span>Neoficiálny návrh webu · Darwon · 2026</span><span>Fyzioterapia &amp; Masáže · Topoľčany</span></div>
+</footer>
+
+<nav class="mbar" aria-label="Rýchle akcie">
+  <a class="call" href="tel:+421948412533">Zavolať</a>
+  <a class="book" href="https://fyzio-sipos-darwon.vercel.app/rezervacia">Objednať sa</a>
+</nav>
+
+<script>
+(function(){
+  "use strict";
+  var HOURS = {1:[[480,1020]],2:[[480,1020]],3:[[480,1020]],4:[[480,1020]],5:[[480,1020]]};
+  var NOTES = {};
+  var W = {open:"Teraz otvorené", closing:"Zatvárame o", closed:"Zatvorené", next:"otvárame"};
+
+  var ACC = ["v nedeľu","v pondelok","v utorok","v stredu","vo štvrtok","v piatok","v sobotu"];
+  function now(){
+    try{
+      var p = new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Bratislava",weekday:"short",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date());
+      var m = {}; p.forEach(function(x){ m[x.type] = x.value; });
+      return { day:{Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6}[m.weekday], mins:(parseInt(m.hour,10)%24)*60 + parseInt(m.minute,10) };
+    }catch(err){ var d = new Date(); return { day:d.getDay(), mins:d.getHours()*60 + d.getMinutes() }; }
+  }
+  function hm(t){ if(t >= 1440) return "polnoci"; var h = Math.floor(t/60), m = t%60; return h + ":" + (m<10?"0":"") + m; }
+  function status(n){
+    var spans = HOURS[n.day] || [], prev = HOURS[(n.day+6)%7] || [];
+    for(var j=0;j<prev.length;j++){ if(prev[j][1] > 1440 && n.mins < prev[j][1]-1440) return {open:true, end:prev[j][1]-1440}; }
+    for(var i=0;i<spans.length;i++){ if(n.mins >= spans[i][0] && n.mins < spans[i][1]) return {open:true, end:spans[i][1]}; }
+    for(var k=0;k<spans.length;k++){ if(spans[k][0] > n.mins) return {open:false, when:"dnes o " + hm(spans[k][0])}; }
+    for(var d=1; d<=7; d++){ var dd = (n.day+d)%7, s = HOURS[dd]; if(s && s.length) return {open:false, when:(d===1 ? "zajtra" : ACC[dd]) + " o " + hm(s[0][0])}; }
+    return {open:false, when:""};
+  }
+  function render(){
+    var n = now(), dot = document.getElementById("statusDot"), text = document.getElementById("statusText");
+    if(HOURS && dot && text){
+      var st = status(n);
+      if(st.open){
+        var left = st.end - n.mins;
+        if(left <= 60){ dot.className = "is-closing"; text.innerHTML = W.closing + " " + hm(st.end) + " · <b>ešte " + left + " min</b>"; }
+        else { dot.className = "is-open"; text.innerHTML = W.open + " · <b>do " + hm(st.end) + "</b>"; }
+      }else{
+        var note = NOTES[n.day], noted = note && !(HOURS[n.day]||[]).length;
+        dot.className = noted ? "is-note" : "is-closed";
+        text.innerHTML = noted ? "Dnes " + note : W.closed + (st.when ? " · <b>" + W.next + " " + st.when + "</b>" : "");
+      }
+    }
+    var label = document.getElementById("todayLabel");
+    if(HOURS && label && !label.textContent){
+      var s = HOURS[n.day] || [];
+      if(s.length) label.textContent = "Dnes " + s.map(function(x){ return hm(x[0]) + "–" + (x[1] >= 1440 ? "0:00" : hm(x[1])); }).join(", ");
+      else if(!NOTES[n.day]) label.textContent = "Dnes zatvorené";
+    }
+    [].forEach.call(document.querySelectorAll('[data-day="' + n.day + '"]'), function(r){ r.setAttribute("data-today",""); });
+  }
+  render(); setInterval(render, 60000);
+})();
+</script>
